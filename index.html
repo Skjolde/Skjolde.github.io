@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
@@ -7,29 +8,29 @@
 	<title>Moments</title>
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-	
+
 	<!--leaflet CSS, followed by ours-->
 	<link rel="stylesheet" href="lib/leaflet/leaflet.css">
 	<link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-	
+
 	<div id="info-disabled">
 		<video width="100%" height="100%" controls autoplay loop>
 			<source id="infovid" type="video/mp4">
 			Your browser does not support the video tag.
 		</video>
 	</div>
-	
-	<audio id ="geiger" autoplay loop style="visibility: hidden">
-        <source src="meow_short.mp3" type="audio/mpeg">
-        Your browser does not support the audio element.
-    </audio>
-    <!--the div that holds the map-->
+
+	<audio id="geiger" autoplay loop style="visibility: hidden">
+		<source src="Geiger-counter-sound-effect.mp3" type="audio/mpeg">
+		Your browser does not support the audio element.
+	</audio>
+	<!--the div that holds the map-->
 	<div id="map"></div>
-    
-<a href=""><img class = "record_button" src="img/button-05.png" alt="button"></a>
+
+	<a href=""><img class="record_button" src="img/button-05.png" alt="button"></a>
 
 	<!--leaflet js library, stamen map layer library, followed by our script-->
 	<script src="lib/leaflet/leaflet.js"></script>
